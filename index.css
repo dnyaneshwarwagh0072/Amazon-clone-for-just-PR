@@ -1,0 +1,294 @@
+*,
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 60px;
+    /* background-color: black; */
+    background-color: #0b161c;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 60px;
+    width: 90px;
+    margin-bottom: 20px;
+}
+
+.border:hover {
+    cursor: pointer;
+}
+
+.logo {
+    background-image: url('./images/amazon.png');
+    background-size: cover;
+    height: 60px;
+    width: 100%;
+}
+
+/* .border:hover {
+    border: 1px solid white;
+
+} */
+
+
+/* BOX-2 */
+
+.delivery-tag {
+    color: #cccccc;
+    font-size: 0.70rem;
+    margin-left: 15px;
+}
+
+
+.location-icon {
+    display: flex;
+}
+
+.country-tag {
+    margin-left: 3px;
+}
+
+
+/* BOX-3 */
+
+.nav-search {
+    background-color: #febd68;
+    width: 600px;
+    height: 40px;
+    display: flex;
+    border-radius: 7px;
+    border: none;
+}
+
+.nav-search:hover {
+    border: 2px solid yellowgreen;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border: none;
+    padding: 7px;
+    font-family: Arial, sans-serif;
+}
+
+.search-input {
+    width: 500px;
+    border: none;
+    padding-left: 9px;
+    font-size: 1rem;
+}
+
+.search-icon {
+    color: black;
+    margin: auto;
+    font-size: 20px;
+}
+
+
+/* **BOX-3** */
+
+.nav-sign-in {}
+
+.acc-greeting {
+    font-size: 0.70rem;
+    font-weight: 700;
+}
+
+.acc-list {
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+/* BOX-4 */
+.returns {
+    font-size: 0.70rem;
+    font-weight: 700;
+}
+
+.orders {
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+/* BOX-5 */
+
+.nav-cart {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.cart-css {
+    font-size: 26px;
+}
+
+.cart {
+    font-weight: 600;
+
+}
+
+/* What'sApp */
+
+.whatsApp-img {
+    position: fixed;
+    width: 40px;
+    left: 10px;
+    top: 500px;
+    background-color: white;
+    border-radius: 20%;
+}
+
+whats-img:hover {
+    cursor: pointer;
+}
+
+/* NAV-PANEL */
+
+.nav-panel {
+    width: 100%;
+    height: 39px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-all:hover {
+    cursor: pointer;
+}
+
+.panel-ops p:hover {
+    cursor: pointer;
+}
+
+.panel-ops p {
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-ops {
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-deals {
+    font-weight: 600;
+}
+
+.panel-deals:hover {
+    cursor: pointer;
+}
+
+
+/* HERO-SECTION */
+
+.hero-section {
+    background-image: url('./images/back-img.jpg');
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.para-text {
+    background-color: white;
+    font-size: 0.85rem;
+    height: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 245px;
+}
+
+.para-text a {
+    color: #007185;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* MAIN_SECTION */
+
+.main-box-section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #bfd2d5;
+}
+
+.main-box-container-parent {
+    /* border: 2px solid black; */
+    height: 260px;
+    width: 23%;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.main-box-container-img {
+    width: 100%;
+    height: 170px;
+}
+
+.main-box-container {
+    padding: 20px;
+}
+
+.main-box-container p {
+    padding-top: 5px;
+    font-size: 12px;
+    color: blue;
+}
+
+.main-box-container h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 9px;
+}
+
+/* -FOOTER- */
+
+.footer-panel1 {
+    background-color: #37475a;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-panel2 {
+    display: flex;
+    justify-content: space-evenly;
+    height: ;
+    background-color: #222f3d;
+    color: white;
+    height: 250px;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+ul {
+    margin-top: 30px;
+}
+
+ul p {
+    cursor: pointer;
+}
