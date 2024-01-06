@@ -226,6 +226,7 @@ whats-img:hover {
     justify-content: space-evenly;
     flex-wrap: wrap;
     background-color: #bfd2d5;
+    padding-bottom: 20px;
 }
 
 .main-box-container-parent {
